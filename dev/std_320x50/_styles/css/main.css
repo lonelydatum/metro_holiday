@@ -219,6 +219,10 @@ sup {
   opacity: 0;
 }
 
+.bg {
+  opacity: 0;
+}
+
 #banner {
   font-size: 20px;
   color: #333;

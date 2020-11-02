@@ -219,18 +219,8 @@ sup {
   opacity: 0;
 }
 
-.red-bg {
-  width: 100%;
-  height: 100%;
-  background-color: #ec1c24;
-  -webkit-transform: translate(-420px, 0px);
-  -ms-transform: translate(-420px, 0px);
-  transform: translate(-420px, 0px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
+.bg {
+  opacity: 0;
 }
 
 #banner {

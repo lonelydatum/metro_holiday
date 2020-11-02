@@ -8,11 +8,8 @@
 	opacity: 0;
 }
 
-.red-bg{
-	width: 100%;
-	height: 100%;
-	background-color: #ec1c24;
-	@include pos(-420, 0);
+.bg{
+	opacity: 0;
 }
 
 #banner{

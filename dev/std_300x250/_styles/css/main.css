@@ -215,64 +215,8 @@ sup {
   opacity: 0;
 }
 
-.frame1 {
-  opacity: 1;
-}
-
-.screen {
-  width: 100%;
-  height: 100%;
-  -webkit-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-  clip: rect(48px, 224px, 250px, 76px);
-}
-
-.childholder {
-  width: 100%;
-  height: 100%;
-  -webkit-transform: translate(0px, 201px);
-  -ms-transform: translate(0px, 201px);
-  transform: translate(0px, 201px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-.child {
-  clip: rect(48px, 224px, 250px, 76px);
-  width: 100%;
-  height: 100%;
-}
-
-.white {
-  -webkit-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
-.red {
-  -webkit-transform: translate(0px, 201px);
-  -ms-transform: translate(0px, 201px);
-  transform: translate(0px, 201px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-  background-color: #eb2129;
+.bg {
+  opacity: 0;
 }
 
 #banner {

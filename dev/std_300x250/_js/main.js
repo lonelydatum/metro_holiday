@@ -1,12 +1,13 @@
 function start(){
 	TweenLite.defaultEase = Power3.easeInOut
-	const tl = new TimelineMax()
+	const tl = new TimelineMax({repeat:1, repeatDelay:3})
 	tl.set(".frame1", {opacity:1})
-	tl.to(".childholder", .5, {y:0}, "+=.2")
-	tl.to(".childholder", .5, {y:-202}, "+=1")	
-	tl.from(".logo", .5, {opacity:0}, "+=.3")
-	tl.from(".txt", .5, {opacity:0}, "+=.3")
-	tl.from(".app", .5, {opacity:0}, "+=.8")
+	
+	tl.to(".bg1", .6, {opacity:1})
+
+	tl.to(".bg2", .6, {opacity:1}, "+=3")
+
+	tl.to(".bg3", .6, {opacity:1}, "+=3")
 
 }
 

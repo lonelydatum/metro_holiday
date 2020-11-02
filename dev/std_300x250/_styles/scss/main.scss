@@ -5,36 +5,16 @@
 
 
 .frame1 {
-	opacity: 1;
+	// opacity: 1;
 }
 
-.screen{
-	width: 100%;
-	height: 100%;
-	@include pos(0, 0);
-	clip: rect(48px, 224px, 250px, 76px);
-}
-.childholder{
-	width: 100%;
-	height: 100%;
-	@include pos(0, 201);
-}
-.child{
-	clip: rect(48px, 224px, 250px, 76px);
-	width: 100%;
-	height: 100%;
-	// width: 148px;
-	// height: 201px;
-}
-.white{
-	@include pos(0, 0);
-}
-.red{
-	@include pos(0, 201);
-	background-color: #eb2129;
+.bg{
+	opacity: 0;
 }
 
-
+.bg1{
+	// opacity: 1;
+}
 
 #banner{
 	font-size: 20px;
